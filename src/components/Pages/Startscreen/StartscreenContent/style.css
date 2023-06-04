@@ -1,0 +1,72 @@
+div.startscreen-container {
+    position: relative;
+}
+
+img#startscreen-background {
+    width: 100%;
+}
+
+div.startscreen-content {
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    margin: 0 3%;
+}
+
+div.text-container {
+    align-self: center;
+    justify-self: flex-start;
+    
+}
+
+div.text-container h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    color: #fff;
+    width: 70%;
+    padding-bottom: 11%;
+}
+
+div.text-container p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 160%;
+    color: #CDCDCD;
+    padding-bottom: 11%;
+    padding-right: 3%;
+}
+
+div.text-container button {
+    border: none;
+    border-radius: 45px;
+    color: black;
+    background-color: #F1CDB3;
+    width: 45%;
+    height: 3em;
+    transition: 0.33s;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+}
+
+div.text-container button:hover {
+    transition: 0.33s;
+    background-color: #FDDCC4;
+}
+
+img#startscreen-puppy {
+    align-self: center;
+    justify-self: flex-end;
+    position: relative;
+    bottom: 0.15em;
+}
