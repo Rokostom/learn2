@@ -1,0 +1,110 @@
+div.pets-content {
+    width: 100%;
+    text-align: center;
+}
+
+div.pets-content h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 130%;
+    text-align: center;
+
+    padding: 5% 0;
+    width: 30%;
+    margin: auto;
+}
+
+div.pets-content button.pets-content-button {
+    width: 20%;
+    height: 3em;
+    background-color: #F1CDB3;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+
+    margin: 5% 0;
+}
+
+div.pet-card {
+    text-align: center;
+    width: 20%;
+    background-color: #FAFAFA;
+    transition: 0.33s;
+    cursor: pointer;
+}
+
+div.pet-card:hover {
+    transition: 0.33s;
+    transform:scale(1.2);
+}
+
+div.pet-card img {
+    width: 100%;
+}
+
+div.pet-card h3 {
+    padding: 5% 0;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+
+div.pet-card button {
+    border-radius: 45px;
+    background-color: white;
+    border: 2px solid #F1CDB3;
+    width: 80%;
+    height: 3em;
+    margin-bottom: 10%;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 130%;
+    transition: 0.33s;
+    cursor: pointer;
+}
+
+div.pet-card button:hover {
+    transition: 0.33s;
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}
+
+div.pet-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+div.pet-list button.side-button {
+    width: 3em;
+    height: 3em;
+    background-color: white;
+    border: 2px solid #F1CDB3;
+    border-radius: 45px;
+    transition: 0.33s;
+    cursor: pointer;
+}
+
+div.pet-list button.side-button:hover {
+    transition: 0.33s;
+    background-color: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}

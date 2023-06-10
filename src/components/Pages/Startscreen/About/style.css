@@ -1,0 +1,33 @@
+div.about-container {
+    padding: 10% 0;
+}
+
+div.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.about-text-container {
+    width: 35%;
+}
+
+div.about-text-container h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+}
+
+div.about-text-container p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    padding: 3% 0;
+}
